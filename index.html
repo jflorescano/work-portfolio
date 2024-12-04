@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta cherset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content = "width=device-with, initial-scale=1.0">
+    <title> Portafolio Personal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/351435c9d1.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+<div id="header">
+    <div class="container">
+        <nav> 
+            <ul> 
+                <li><a href="#header">Inicio</a></li> 
+                <li><a href="#trayectoria">Sobre mí</a></li>
+                <li><a href="#servicies">Proyectos académicos</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <i class="fa-solid fa-laptop-code" style="font-size: 80px;"></i>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/joanaflorescano/" style="float: left;"><i class="fa-brands fa-linkedin" ></i></a>
+                <a href="https://github.com/jflorescano" style="float: left;"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <h1 style="font-size: 100px"><span class="gradient-text">QA Engineer</span></h1>
+            <p>¡Hola! Soy Joana Florescano, QA Tester apasionada por la calidad del software. Mi enfoque está en garantizar experiencias de usuario
+                óptimas mediante pruebas web, API y móviles. <br>
+                ¡Entusiasta de la tecnología y siempre lista para nuevos desafíos!
+            </p>
+            <a href="imagenes/CV_Joana_Florescano.pdf" download class="btn btn-spacing" style="float: left;">Descargar CV (Español)</a> 
+            <a href="imagenes/CV_en_Joana_Florescano.pdf" download class="btn" style="float: left;">Download CV (English)</a>
+           
+        </div>
+    </div>
+</div>
+<!-- ----------- TRAYECTORIA------- -->
+<div id="trayectoria">
+    <div class="container">
+        <div class="row">
+            <div class="trayectoria-col-1">
+                <img src = "imagenes/fotouser.jpeg">
+            </div>
+            <div class="trayectoria-col-2">
+                <h1 class="sub-title gradient-text">Sobre mí</h1>
+                <p>Bioingeniera y Quality Assurance Engineer con experiencia en desarrollo y calidad de software. Con experiencia en pruebas funcionales, 
+                    no funcionales, UI, API’s y móviles nativas, y automatización de pruebas mediante Pytest, Selenium y Postman. Habilidades en diseño,
+                     ejecución y reporte de casos de prueba, y en la gestión de bugs con Jira. Mi participación en proyectos de investigación me permitió
+                      desarrollar habilidades clave como la búsqueda eficiente de información, gestión y análisis de datos, y resolución proactiva de problemas. 
+                      Apasionada por la tecnología y comprometida con garantizar la funcionalidad, confiabilidad y excelencia técnica de las soluciones 
+                      tecnológicas, especialmente aquellas que tienen un impacto en la calidad de vida y la salud de las personas. 
+                </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('habilidades')">Lenguajes</p>
+                        <p class="tab-links" onclick="opentab('experiencia')">Experiencia</p>
+                        <p class="tab-links" onclick="opentab('Formacion')">Formación</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="habilidades">
+                        <ul class="two-columns">
+                            <li><span>Python</span></li>
+                            <li><span>SQL</span></li>
+                            <li><span>HTML/CSS</span></li>
+                            <li><span>Linux</span></li>
+                            <li><span>VS Code</span></li>
+                            <li><span>JIRA</span></li>
+                            <li><span>Cygwin</span></li>
+                            <li><span>Postman</span></li>
+                            <li><span>Android Studio</span></li>
+                            <li><span>Matlab</span></li>
+                            <li><span>Pytest</span></li>
+                            <li><span>Selenium</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiencia">
+                        <ul>
+                            <li><span>Teleflex, 2024</span><br>Quality Engineer Intern</li>
+                            <li><span>Computational Science and Computational Intelligence (CSCI 2023)</span><br>Expositora</li>
+                            <li><span>Universidad Autónoma de Baja California, 2022-2023</span><br>Ayudantia de investigación</li>
+                            <li><span>Universidad de Antioquia, 2023</span><br>Ayudantia de investigación</li>
+                     
+                        </ul>
+                    </div>   
+                    <div class="tab-contents" id="Formacion">
+                        <ul>
+                            <li><span>2019-2024</span><br>Licenciatura en Bioingeniería, Universidad Autónoma de Baja California</li>
+                            <li><span>2024</span><br>TripleTen - Bootcamp QA Engineering</li>
+                        </ul>
+                    </div>            
+            </div>
+        </div>
+    </div>
+</div>  
+
+<!-- --------------------------------- Servicies-------------------- -->
+<div id="servicies">
+    <div class="container">
+        <h1 class="sub-title gradient-text">Proyectos académicos</h1>
+        <div class="services-list">
+            <div> 
+                <h2>Clasificación automatizada de señales electrocardiográficas en mujeres en el rango entre 40 y
+                    60 años de edad <i class="fa-solid fa-heart-pulse"></i></h2>
+                <p> Python | MATLAB | Biosppy | Numpy  </p>    
+                <a href="#" class="open-modal" data-project="1">Detalles del proyecto</a>
+            </div>
+            <div> 
+                <h2>Análisis de imágenes de resonancia magnética en sujetos con riesgo genético 
+                    para enfermedad de Alzheimer <i class="fa-solid fa-brain"></i></h2>
+                <p>Linux | Python | MrTrix | FSL </p>
+                <a href="#" class="open-modal" data-project="2">Detalles del proyecto</a>
+            </div>
+            <div> 
+                <h2>Statistical Analysis of Cross-Correlation Index for Identifying Abnormal ECG Signals <i class="fa-solid fa-heart-pulse"></i></h2>
+                <p> Python | MATLAB   </p>    
+                <a href="#" class="open-modal" data-project="3">Detalles del proyecto</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- ------------------------------------------------------------------TESIS-------------------------------------------- -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal(1)">&times;</span>
+      <h1 class="gradient-text">Detalles del proyecto</h1>
+      <p>Desarrollé un clasificador automático de arritmias utilizando Python, implementando análisis de datos, técnicas estadísticas y
+         automatización de pruebas. Optimicé el proceso de análisis de señales mediante la detección y clasificación de patrones anómalos,
+          separando señales normales de anormales.</p>
+          <a href="https://github.com/jflorescano/clasificador-se-ales-ecg" target="_blank" class="btn">Ver repositorio <i class="fa-brands fa-github"></i> </a>
+    </div>
+  </div>
+  
+  <!-- ------------------------------------------------------------------DTI-------------------------------------------- -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal(2)">&times;</span>
+      <h1 class="gradient-text">Detalles del proyecto</h1>
+      <p>Desarrollé un algoritmo para el procesamiento de imágenes de resonancia magnética utilizando Linux, Python, MrTrix, ANTsPy y FSL, 
+        con el objetivo de identificar las métricas de difusividad (Difusividad y anisotropía) en imagénes de resonancia magnética por 
+        tensor de difusión (DTI) para identicar cambios morfológicos relacionados con la enfermedad de Alzheimer con la mutación genética
+         E280A y analizar un posible biomarcador temprano en esta enfermedad.</p>
+      <a href="https://github.com/jflorescano/metricas-difusividad" target="_blank" class="btn">Ver repositorio <i class="fa-brands fa-github"></i> </a>
+    </div>
+  </div>
+  
+<!-- ------------------------------------------------------------------CORRELATION-------------------------------------------- -->
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal(3)">&times;</span>
+      <h1 class="gradient-text">Detalles del proyecto</h1>
+      <p>Impartí la conferencia "Statistical Analysis of Cross-Correlation Index for Identifying Abnormal ECG Signals" en el congreso
+         internacional "Computational Science and Computational Intelligence (CSCI) 2023", presentando resultados del proyecto 
+         "Análisis de Señales Electrocardiográficas" basados en la identificación y validación de anomalías.</p>
+      <a href="https://ieeexplore.ieee.org/abstract/document/10590579" target="_blank" class="btn">Consultar artículo en IEEE</a>
+      <a href="imagenes/Paper_CSCI_2023.pdf" download class="btn">Leer artículo</a>
+    </div>
+  </div>
+  
+
+<!------------------------------------------------------------------------- Portafolio------------------------------------------------------------ -->
+<div id="portafolio">
+    <div class="container">
+        <h1 class="sub-title gradient-text">Portafolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="imagenes/Proyecto1.png">
+                <div class="layer"> 
+                    <h3>Urban.Routes</h3> 
+                    <p>Web Testing</p>
+                    <a href="#" class="open-modal" data-project="QA1"><i class="fa-solid fa-book-open-reader"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imagenes/Proyecto2.png">
+                <div class="layer"> 
+                    <h3>Urban.Grocers</h3> 
+                    <p>API Testing</p>
+                    <a href="#" class="open-modal" data-project="QA2"><i class="fa-solid fa-book-open-reader"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imagenes/Proyecto3.png">
+                <div class="layer"> 
+                    <h3>Urban.Lunch</h3> 
+                    <p>Mobile Testing</p>
+                    <a href="#" class="open-modal" data-project="QA3"><i class="fa-solid fa-book-open-reader"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imagenes/Proyecto1.png">
+                <div class="layer"> 
+                    <h3>Urban.Grocers</h3> 
+                    <p>API Testing Automated</p>
+                    <a href="#" class="open-modal" data-project="QA4"><i class="fa-solid fa-book-open-reader"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="imagenes/certificadoQA.pdf" download class="btn">Certificado QA Engineer</a> 
+    </div>
+</div>
+
+<!-- ------------------------------------------------------------Modales QA Tester------------------------------------------------------- -->
+
+<!-- ------------------------------------------------------------------URBAN ROUTES-------------------------------------------- -->
+<div id="modalQA1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('QA1')">&times;</span>
+        <h2 class="modal-title">Proyecto Urban.Routes - Testing de Automóvil Compartido y Taxi Aéreo</h2>
+        <p>
+            Durante el proyecto <strong>Urban.Routes</strong>, realicé pruebas exhaustivas de las funcionalidades de <strong>"Automóvil Compartido"</strong> y <strong>"Taxi Aéreo"</strong>, garantizando estabilidad y una experiencia de usuario fluida.
+        </p>
+        <ul>
+            <li>
+                <strong>Automóvil Compartido:</strong> Validación del formulario de reserva en <em>Google Chrome (800x600)</em> y <em>Firefox (1920x1080)</em>. 
+                Se diseñaron y ejecutaron casos de prueba para el botón "Reservar", ventanas emergentes y procesos de alquiler, cubriendo pruebas positivas y negativas.
+            </li>
+            <li>
+                <strong>Taxi Aéreo:</strong> Uso de <em>Charles Proxy</em> para simular el backend, permitiendo pruebas anticipadas del front-end. 
+                Validación del ícono, cálculo de costos y presentación de resultados para asegurar consistencia visual y funcional.
+            </li>
+        </ul>
+        <p>
+            El proyecto concluyó con un reporte detallado de errores y mejoras, asegurando que la plataforma cumpla con altos estándares de calidad, fortaleciendo la confianza del usuario y recomendando su despliegue.
+        </p>
+        
+        <a href="imagenes/Buscadordebugs.pdf" download class="btn">Ver Certificado</a>
+        
+    </div>
+</div>
+
+<!-- ------------------------------------------------------------------URBAN GROCERS-------------------------------------------- -->
+<div id="modalQA2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('QA2')">&times;</span>
+        <h2>Proyecto Urban.Grocers - Pruebas de API</h2>
+        <p>
+            Llevé a cabo pruebas exhaustivas del back-end de <strong>Urban.Grocers</strong>, asegurando la correcta integración de nuevas funcionalidades relacionadas con kits de productos, servicios de entrega y el manejo del carrito de compras.
+        </p>
+        <ul>
+            <li><strong>Manejo de Kits:</strong> Probé la capacidad de agregar productos a un kit mediante el endpoint <code>POST /api/v1/kits/{id}/products</code>, validando respuestas exitosas y errores <code>400 Bad Request</code>.</li>
+            <li><strong>Servicios de Entrega:</strong> Validé la disponibilidad y el costo del servicio <em>Order and Go</em> usando el endpoint <code>POST /order-and-go/v1/delivery</code>, asegurando que el cálculo de precios fuera preciso según los requisitos.</li>
+            <li><strong>Gestión del Carrito:</strong>
+                <ul>
+                    <li>Obtención de listas de productos con <code>GET /api/v1/orders/:id</code>, verificando la autenticación correcta para evitar errores <code>401</code> y <code>404</code>.</li>
+                    <li>Pruebas de adición de productos al carrito con <code>PUT /api/v1/orders/:id</code>, manejando escenarios de disponibilidad y errores <code>409 Conflict</code> cuando no se encuentran productos en almacenes.</li>
+                    <li>Eliminación del carrito usando <code>DELETE /api/v1/orders/:id</code>, asegurando respuestas correctas y manejo de errores.</li>
+                </ul>
+            </li>
+        </ul>
+        <p>
+            Utilicé <strong>Postman</strong> para ejecutar todas las pruebas API y reporté errores encontrados en <strong>Jira</strong>, lo que permitió mejorar la calidad del producto. Al finalizar, presenté un informe detallado sobre el estado de las pruebas para garantizar un despliegue exitoso.
+        </p>
+        <div class="btn-container">
+        <a href="imagenes/aplicacionesweb.pdf" download class="btn">Ver Certificado</a>
+        <a href="https://github.com/jflorescano/qa-project-06-es" target="_blank" class="btn">Ver repositorio <i class="fa-brands fa-github"></i> </a>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------------------------------------------------------URBAN LUNCH -------------------------------------------- -->
+<div id="modalQA3" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('QA3')">&times;</span>
+        <h2>Proyecto Urban.Lunch - Pruebas de Aplicación Móvil</h2>
+        <p>
+            En este proyecto, realicé pruebas exhaustivas de la aplicación móvil <strong>Urban.Lunch</strong> para asegurar su funcionamiento en dispositivos Android. 
+            El enfoque se centró en la creación de listas de comprobación detalladas para validar las funcionalidades clave, utilizando mapas mentales y diagramas de flujo como soporte.
+        </p>
+        <p>
+            Las pruebas se llevaron a cabo tanto en un emulador de <strong>Android Studio</strong> como en dispositivos físicos, con la última versión de la aplicación. 
+            Los resultados de cada prueba se marcaron como <em>APROBADO</em> o <em>NO APROBADO</em>. Los errores detectados fueron documentados y reportados en <strong>Jira</strong>, 
+            incluyendo enlaces directos a los informes para facilitar su revisión.
+        </p>
+        <ul>
+            <li><strong>Creación de la lista de comprobación:</strong> Diseñé listas de pruebas exhaustivas para cubrir las funcionalidades principales de la aplicación, asegurando una verificación minuciosa.</li>
+            <li><strong>Ejecución de pruebas:</strong> Las pruebas se realizaron en diferentes entornos Android, verificando la estabilidad y la correcta interacción del usuario con la interfaz.</li>
+            <li><strong>Documentación de errores:</strong> Todos los errores encontrados fueron reportados detalladamente en Jira, proporcionando evidencias claras para su corrección.</li>
+        </ul>
+        <p>
+            Al concluir el proyecto, redacté un informe de pruebas detallado para el equipo, destacando el estado de las funcionalidades probadas, los errores encontrados y recomendaciones para su corrección. 
+            Esto garantiza que la aplicación cumpla con los estándares de calidad necesarios para su lanzamiento exitoso.
+        </p>
+        <a href="imagenes/moviles.pdf" download class="btn">Ver Certificado</a>
+    </div>
+</div>
+
+<!-- ------------------------------------------------------------------URBAN ROUTES AUTOMATED-------------------------------------------- -->
+<div id="modalQA4" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('QA4')">&times;</span>
+        <h2>Proyecto Urban Routes - Automatización de Pruebas</h2>
+        <p>
+            Este proyecto consiste en la creación de pruebas automatizadas para la plataforma <strong>Urban Routes</strong>, utilizando Git, GitHub y Python. 
+            Se implementaron varias pruebas para validar el proceso de solicitud de un taxi y garantizar una experiencia de usuario fluida y confiable.
+        </p>
+        <h3>Configuración del Proyecto</h3>
+        <p>
+            El proyecto fue gestionado con Git y GitHub, asegurando control de versiones eficiente. Tras clonar el repositorio, el proyecto se configuró localmente 
+            utilizando PyCharm para un entorno de desarrollo optimizado. 
+        </p>
+        <h3>Implementación de Pruebas Automatizadas</h3>
+        <p>
+            Las pruebas se implementaron en <code>main.py</code>, utilizando la estructura de clases para mantener el código modular y limpio. 
+            La clase <code>UrbanRoutesPage</code> define los localizadores y métodos necesarios para interactuar con la aplicación, mientras que la 
+            clase <code>TestUrbanRoutes</code> contiene las pruebas automatizadas que cubren funcionalidades de la aplicación.
+        </p>
+
+        <h3>Creación del Archivo README</h3>
+        <p>
+            Se añadió un archivo <code>README.md</code> al repositorio, incluyendo una descripción detallada del proyecto, las tecnologías utilizadas y 
+            las instrucciones para ejecutar las pruebas. Esto facilita la comprensión y ejecución del proyecto por parte de otros desarrolladores.
+        </p>
+        <div class="btn-container">
+            <a href="imagenes/Automatizacion.pdf" download class="btn">Ver Certificado</a>
+            <a href="https://github.com/jflorescano/qa-project-07-es" target="_blank" class="btn">Ver repositorio <i class="fa-brands fa-github"></i> </a>
+        </div>
+    </div>
+</div>
+
+
+
+<!-------------------------------- Contacto------------------------------------------------>
+<div id="contact">
+    <div class="contact">
+        <div class="container">
+            <div class="class">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contáctame</h1>
+                    <p>
+                        <i class="fa-solid fa-paper-plane"></i> 
+                        <a href="mailto:florescano.joana1em@gmail.com" style="color: white;">florescano.joana1em@gmail.com</a>
+                    </p>
+                    
+                    
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/joanaflorescano/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/jflorescano"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="imagenes/CV_Tutor_Joana_Florescano.pdf" download class="btn btn2">Descargar CV (Español)</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+    // Manteniendo la estructura original para tabs
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+ // Función para abrir los modales según el proyecto
+ function openModal(projectId) {
+        var modal = document.getElementById('modal' + projectId);
+        modal.style.display = 'block';
+    }
+
+    // Función para cerrar los modales
+    function closeModal(projectId) {
+        var modal = document.getElementById('modal' + projectId);
+        modal.style.display = 'none';
+    }
+
+    // Eventos para los enlaces del portafolio QA
+    document.querySelectorAll('.open-modal').forEach(link => {
+        link.addEventListener('click', function (event) {
+            event.preventDefault();
+            var projectId = this.getAttribute('data-project');
+            openModal(projectId);
+        });
+    });
+
+    // Cerrar el modal al hacer clic fuera de la ventana
+    window.addEventListener('click', function (event) {
+        document.querySelectorAll('.modal').forEach(function (modal) {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
